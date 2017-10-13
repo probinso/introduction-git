@@ -14,7 +14,7 @@ competes with : **hg**, **svn**, **cvs**, **darcs**
 ---
 # What is Github?
 - Git service provider
-- Account/access managment and control
+- Account managment and access control
 - Hosting platform
 - Ticket tracker / project management tool
 
