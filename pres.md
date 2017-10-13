@@ -26,7 +26,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - markdown / jupyter / pdf
 - small or static images & datasets
 
-# What not to store?
+# What NOT to store?
 - PASSWORDS
 - binaries & executables (with some exceptions)
 - large or unstable images & datasets
