@@ -14,7 +14,7 @@ competes with : **hg**, **svn**, **cvs**, **darcs**
 ---
 # What is Github?
 - Git service provider
-- Account/access managment and control
+- Account managment and access control
 - Hosting platform
 - Ticket tracker / project management tool
 
@@ -26,7 +26,8 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - markdown / jupyter / pdf
 - small or static images & datasets
 
-## What not to store?
+
+## What NOT to store?
 - PASSWORDS, secrets, or private keys
 - binaries & executables (with some exceptions)
 - large or unstable images & datasets
@@ -47,7 +48,7 @@ remote: Total 500 (delta 27), reused 33 (delta 12), pack-reused 451
 Receiving objects: 100% (500/500), 6.72 MiB | 1.71 MiB/s, done.
 Resolving deltas: 100% (286/286), done.
 Checking connectivity... done.
-$ 
+$
 ```
 
 ---
