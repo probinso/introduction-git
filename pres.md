@@ -40,9 +40,9 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 custom_mark10
   digraph G {
     aize ="4,4";
-    START -> {init, clone, status}
-    init -> status
-    clone -> status
+    START -> {init, clone, status};
+    init -> status;
+    clone -> status;
   }
 custom_mark10
 </details>
