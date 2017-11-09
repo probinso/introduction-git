@@ -45,9 +45,10 @@ custom_mark10
     LocalRepository -> TrackedChanges ;
     TrackedChanges -> BeginWork [label="git status   "];
     BeginWork -> UntrackedChanges;
-    UntrackedChanges -> UnderstoodChanges [label="git diff"];
+    UntrackedChanges -> UnderstoodChanges [label="git diff   "];
     UnderstoodChanges -> TrackedChanges [label=" git commit -a -m 'describe changes'"];
-    TrackedChanges
+    TrackedChanges -> RemoteRepository [label="git push origin master"];
+    TrackedChanges <- RemoteRepository [label="git merge origin/master"];
   }
 custom_mark10
 </details>
