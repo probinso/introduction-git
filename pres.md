@@ -34,16 +34,19 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # New to Git
-![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
+![Alt text](https://g.gravizo.com/source/gitroduction?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
 
 <details>
 <summary></summary>
 custom_mark10
   digraph G {
     aize ="4,4";
-    {init clone} -> {status};
+    NewProject -> LocalRepository [label="git init ."];
+    OldProject -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
+    LocalRepository -> BeginWork [label="git status"];
+    BeginWork -> MakeChanges [label="make changes to code on disk"];
   }
-custom_mark10
+gitroduction
 </details>
 
 
