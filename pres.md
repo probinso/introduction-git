@@ -40,6 +40,9 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <summary></summary>
 custom_mark10
   digraph G {
+    aize =  "4,4";
+    NewProject[shape=doublecircle];
+    RemoteRepository[shape=doublecircle];
     NewProject -> LocalRepository [label="git init .   "];
     RemoteRepository -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
     LocalRepository -> TrackedChanges ;
@@ -48,7 +51,7 @@ custom_mark10
     UntrackedChanges -> UnderstoodChanges [label="git diff   "];
     UnderstoodChanges -> TrackedChanges [label=" git commit -a -m 'describe changes'"];
     TrackedChanges -> RemoteRepository [label="git push origin master"];
-    RemoteRepository -> TrackedChanges [label="git pull"];
+    RemoteRepository -> TrackedChanges [label="git pull origin master"];
   }
 custom_mark10
 </details>
