@@ -40,7 +40,6 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <summary></summary>
 custom_mark10
   digraph G {
-    aize ="4,4";
     NewProject -> LocalRepository [label="git init ."];
     OldProject -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
     LocalRepository -> BeginWork [label="git status"];
