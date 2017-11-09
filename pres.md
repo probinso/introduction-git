@@ -34,18 +34,18 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # New to Git
-![Alt text](https://g.gravizo.com/svg?
- digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
- }
-)
+![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
+
+<details>
+<summary></summary>
+custom_mark10
+  digraph G {
+    aize ="4,4";
+    {init clone} -> {status};
+  }
+custom_mark10
+</details>
+
 
 ---
 # Git Commands
