@@ -40,13 +40,14 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <summary></summary>
 custom_mark10
   digraph G {
-    NewProject -> LocalRepository [label="git init ."];
-    OldProject -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
+    NewProject -> LocalRepository [label="git init .   "];
+    RemoteRepository -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
     LocalRepository -> TrackedChanges ;
-    TrackedChanges -> BeginWork [label="git status"];
+    TrackedChanges -> BeginWork [label="git status   "];
     BeginWork -> UntrackedChanges;
     UntrackedChanges -> UnderstoodChanges [label="git diff"];
-    UnderstoodChanges -> TrackedChanges [label="git commit -a -m 'describe changes'"];
+    UnderstoodChanges -> TrackedChanges [label=" git commit -a -m 'describe changes'"];
+    TrackedChanges
   }
 custom_mark10
 </details>
