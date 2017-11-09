@@ -48,7 +48,7 @@ custom_mark10
     UntrackedChanges -> UnderstoodChanges [label="git diff   "];
     UnderstoodChanges -> TrackedChanges [label=" git commit -a -m 'describe changes'"];
     TrackedChanges -> RemoteRepository [label="git push origin master"];
-    RemoteRepository -> TrackedChanges [label="git merge origin/master"];
+    RemoteRepository -> TrackedChanges [label="git pull"];
   }
 custom_mark10
 </details>
