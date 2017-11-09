@@ -42,8 +42,9 @@ custom_mark10
   digraph G {
     NewProject -> LocalRepository [label="git init ."];
     OldProject -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
-    LocalRepository -> TrackedChanges -> BeginWork [label="git status"];
-    BeginWork -> UntrackedChanges [label="make changes to code"];
+    LocalRepository -> TrackedChanges ;
+    TrackedChanges -> BeginWork [label="git status"];
+    BeginWork -> UntrackedChanges;
     UntrackedChanges -> UnderstoodChanges [label="git diff"];
     UnderstoodChanges -> TrackedChanges [label="git commit -a -m 'describe changes'"];
   }
