@@ -34,7 +34,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # New to Git
-<img src='https://g.gravizo.com/svg?
+![Alt text](https://g.gravizo.com/svg?
  digraph G {
    main -> parse -> execute;
    main -> init;
@@ -45,7 +45,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
    main -> printf;
    execute -> compare;
  }
-'/>
+)
 
 ---
 # Git Commands
