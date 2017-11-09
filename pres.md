@@ -41,10 +41,9 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 custom_mark10
   digraph G {
     aize =  "4,4";
-    NewProject[shape=doublecircle];
-    RemoteRepository[shape=doublecircle];
+    {rank=same NewProject[shape=doublecircle] RemoteRepository[shape=doublecircle]};
     NewProject -> LocalRepository [label="git init .   "];
-    RemoteRepository -> LocalRepository [label="git clone git@github.com:probinso/splinqr.git"];
+    RemoteRepository -> LocalRepository [label="git clone https://github.com/probinso/visframe.git"];
     LocalRepository -> TrackedChanges ;
     TrackedChanges -> BeginWork [label="git status   "];
     BeginWork -> UntrackedChanges;
@@ -64,7 +63,7 @@ custom_mark10
 - push, pull, fetch, merge, checkout, branch
 
 ```bash
-$ git clone git@github.com:probinso/Intro-to-Python.git
+$ git clone https://github.com/probinso/visframe.git
 Cloning into 'Intro-to-Python'...
 remote: Counting objects: 500, done.
 remote: Compressing objects: 100% (36/36), done.
