@@ -45,7 +45,7 @@ custom_mark10
     NewProject -> LocalRepository [label="git init .   "];
     RemoteRepository -> LinkedRepository [label="git clone https://github.com/probinso/visframe.git"];
     LocalRepository -> LinkedRepository [label="git add remote origin https://github.com/probinso/visframe.git"];
-    LocalRepository -> TrackedChanges ;
+    LinkedRepository -> TrackedChanges ;
     TrackedChanges -> BeginWork [label="git status   "];
     BeginWork -> UntrackedChanges;
     UntrackedChanges -> UnderstoodChanges [label="git diff   "];
