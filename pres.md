@@ -34,7 +34,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # New to Git
-![Alt text](https://g.gravizo.com/source/gitroduction?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
+![Alt text](https://g.gravizo.com/source/gitroduction0?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
 
 <details>
 <summary></summary>
@@ -46,7 +46,7 @@ custom_mark10
     LocalRepository -> BeginWork [label="git status"];
     BeginWork -> MakeChanges [label="make changes to code on disk"];
   }
-gitroduction
+gitroduction0
 </details>
 
 
