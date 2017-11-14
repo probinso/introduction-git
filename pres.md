@@ -43,8 +43,9 @@ custom_mark10
     aize =  "4,4";
     {rank=same NewProject[shape=doublecircle] RemoteRepository[shape=doublecircle]};
     NewProject -> LocalRepository [label="git init .   "];
-    subgraph linkedRepository {
+    subgraph linkedRepositoryCluster {
         label="LinkedRepository";
+        LinkedRepository[shape="none"][style="invis"][label=""];
         TrackedChanges -> BeginWork [label="git status   "];
         BeginWork -> UntrackedChanges;
         UntrackedChanges -> UnderstoodChanges [label="git diff   "];
@@ -52,8 +53,8 @@ custom_mark10
         TrackedChanges -> RemoteRepository [label="git push origin master"];
         RemoteRepository -> TrackedChanges [label="git pull origin master"];
     };
-    RemoteRepository -> LinkedRepository [label="git clone https://github.com/probinso/visframe.git"];
-    LocalRepository -> LinkedRepository [label="git add remote origin https://github.com/probinso/visframe.git"];
+    RemoteRepository -> LinkedRepositoryCluster [label="git clone https://github.com/probinso/visframe.git"];
+    LocalRepository -> LinkedRepositoryCluster [label="git add remote origin https://github.com/probinso/visframe.git"];
   }
 custom_mark10
 </details>
