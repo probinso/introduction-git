@@ -1,30 +1,33 @@
-digraph {
+digraph G {
+        aize = "4,4"
         compound=true;
         {
                 NewProject[label="New Project", shape=doublecircle];
                 ExistingProject[label="Existing Project", shape=doublecircle];
                 rank=same;
-        }
+                };
+
         Local[label="Local Project"];
         subgraph cluster0 {
                 label="Local With Remote";
                 color=lightgray;
                 style=filled;
                 Tracked [shape=doublecircle];
-                {Untracked; Staged; rank=same;}
+                {Untracked; Staged; rank=same;};
+
                 Tracked -> Untracked [label="Make changes\nSave changes"];
-                Untracked -> Staged [label="git add <filenames...>"];
-                Staged -> Tracked [label="git diff # to understand changes  \ngit commit -m 'describe changes'"];
-                Fetched -> Tracked [label="git merge <branch>"]
+                Untracked -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
+                Staged -> Tracked [label="git commit -m 'describe changes'"];
+                Fetched -> {Conflict, Tracked} [label="git merge <remote/branch>"];
+                Conflict -> Tracked [label="Resolve Merge Conflicts\ngit commit -a"];
                 };
                 Local -> Tracked [
-                                  label="git remote add origin https://github.com/splinqr",
+                                  label="git remote add origin https://github.com/probinso/ABC.git",
                                   lhead=cluster0];
                 NewProject -> Local [label="git init ."];
                 ExistingProject -> Tracked [
-                                            label="git clone https://github.com/splinqr"
+                                            label="git clone https://github.com/probinso/ABC.git"
                                             lhead=cluster0];
-                Tracked -> Remote [label="git push <remote> <branch>"];
-
-                Remote -> Fetched [label="git fetch <remote>"];
+                Tracked -> ExistingProject [label="git push <remote> <branch>", ltail=cluster0];
+                ExistingProject -> Fetched [label="git fetch <remote>"];
 }

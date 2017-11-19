@@ -33,46 +33,22 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - Non-parsable documents (Word, Photoshop, ...)
 
 ---
+# Vocabulary
+
+- Repository (local/remote)
+- `init`
+- `commit` and Commit History
+- `branch`
+- `fetch`
+- `diff`
+- `merge` and Merge Conflicts
+- `pull` / `push`
+
+---
 # New to Git
-![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/PortlandDataScienceGroup/introduction-git/master/pres.md)
+Start every day with `git status`
 
-<details>
-<summary></summary>
-custom_mark10
-digraph G {
-        aize = "4,4"
-        compound=true;
-        {
-                NewProject[label="New Project", shape=doublecircle];
-                ExistingProject[label="Existing Project", shape=doublecircle];
-                rank=same;
-        }
-        Local[label="Local Project"];
-        subgraph cluster0 {
-                label="Local With Remote";
-                color=lightgray;
-                style=filled;
-                Tracked [shape=doublecircle];
-                {Untracked; Staged; rank=same;}
-                Tracked -> Untracked [label="Make changes\nSave changes"];
-                Untracked -> Staged [label="git add <filenames...>"];
-                Staged -> Tracked [label="git diff # to understand changes  \ngit commit -m 'describe changes'"];
-                Fetched -> Tracked [label="git merge <branch>"];
-                };
-                Local -> Tracked [
-                                  label="git remote add origin https://github.com/splinqr",
-                                  lhead=cluster0];
-                NewProject -> Local [label="git init ."];
-                ExistingProject -> Tracked [
-                                            label="git clone https://github.com/splinqr"
-                                            lhead=cluster0];
-                Tracked -> Remote [label="git push <remote> <branch>"];
-
-                Remote -> Fetched [label="git fetch <remote>"];
-}
-custom_mark10
-</details>
-
+![simplest git workflow](./git.png)
 
 ---
 # Git Commands
