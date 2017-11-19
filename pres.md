@@ -1,6 +1,23 @@
 <!-- $theme: gaia -->
 
-# Elementary Intro to Git
+# Preable
+**First 10 minutes** will be spent insuring everyone has
+1. `Github` account
+2. `git` installed on their computer.
+
+Please sit in front of room if you haven't yet setup your environment
+
+Please help your neighbors if you can
+
+---
+# Intro to Git
+
+This talk will not cover, or expect knowlege, of programming languages
+
+1. We will introduce vocabulary
+2. Understand Simplest Workflow
+3. Attendents will contribute to collaborative demo
+4. Watch a more complete real world example
 
 ---
 # What is Git?
@@ -44,8 +61,11 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `pull` / `push`
 
 ---
-# New to Git
+# Simplest Git Workflow
 ![simplest git workflow](./git.png)
+
+---
+# Give me your Username in Exchange for A Ticket
 
 ---
 # Git Commands
@@ -54,7 +74,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - push, pull, fetch, merge, checkout, branch
 
 ```bash
-$ git clone https://github.com/probinso/ABC.git
+$ git clone https://github.com/PortlandDataScienceGroup/ABC.git
 Cloning into 'ABC'...
 remote: Counting objects: 500, done.
 remote: Compressing objects: 100% (36/36), done.
@@ -70,5 +90,6 @@ $
 - create / destroy user and organization accounts
 - create / destroy repository
 - fork
-- issue creation / assigment
+- issue creation / assigment / management
 - `pull request`
+- `gists`
