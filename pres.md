@@ -34,7 +34,6 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # Vocabulary
-
 - Repository (local/remote)
 - `init`
 - `commit` and Commit History
@@ -46,8 +45,6 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # New to Git
-Start every day with `git status`
-
 ![simplest git workflow](./git.png)
 
 ---
@@ -57,8 +54,8 @@ Start every day with `git status`
 - push, pull, fetch, merge, checkout, branch
 
 ```bash
-$ git clone https://github.com/probinso/visframe.git
-Cloning into 'Intro-to-Python'...
+$ git clone https://github.com/probinso/ABC.git
+Cloning into 'ABC'...
 remote: Counting objects: 500, done.
 remote: Compressing objects: 100% (36/36), done.
 remote: Total 500 (delta 27), reused 33 (delta 12), pack-reused 451
