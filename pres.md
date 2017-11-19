@@ -9,6 +9,8 @@ Please sit in front of room if you haven't yet setup your environment
 
 Please help your neighbors if you can
 
+_If you didn't bring a computer, make a friend instead_
+
 ---
 # Intro to Git
 
