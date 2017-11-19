@@ -74,7 +74,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 # Git Commands
 - status, diff
 - clone, init
-- push, pull, fetch, merge, checkout, branch
+- fetch, merge, commit, push
 
 ```bash
 $ git clone https://github.com/PortlandDataScienceGroup/ABC.git
