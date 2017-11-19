@@ -39,23 +39,36 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <details>
 <summary></summary>
 custom_mark10
-  digraph G {
-    aize =  "4,4";
-    {rank=same NewProject[shape=doublecircle] RemoteRepository[shape=doublecircle]};
-    NewProject -> LocalRepository [label="git init .   "];
-    subgraph linkedRepositoryCluster {
-        label="LinkedRepository";
-        LinkedRepository[shape="none"][style="invis"][label=""];
-        TrackedChanges -> BeginWork [label="git status   "];
-        BeginWork -> UntrackedChanges;
-        UntrackedChanges -> UnderstoodChanges [label="git diff   "];
-        UnderstoodChanges -> TrackedChanges [label=" git commit -a -m 'describe changes'"];
-        TrackedChanges -> RemoteRepository [label="git push origin master"];
-        RemoteRepository -> TrackedChanges [label="git pull origin master"];
-    };
-    RemoteRepository -> LinkedRepositoryCluster [label="git clone https://github.com/probinso/visframe.git"];
-    LocalRepository -> LinkedRepositoryCluster [label="git add remote origin https://github.com/probinso/visframe.git"];
-  }
+digraph {
+        compound=true;
+        {
+                NewProject[label="New Project", shape=doublecircle];
+                ExistingProject[label="Existing Project", shape=doublecircle];
+                rank=same;
+        }
+        Local[label="Local Project"];
+        subgraph cluster0 {
+                label="Local With Remote";
+                color=lightgray;
+                style=filled;
+                Tracked [shape=doublecircle];
+                {Untracked; Staged; rank=same;}
+                Tracked -> Untracked [label="Make changes\nSave changes"];
+                Untracked -> Staged [label="git add <filenames...>"];
+                Staged -> Tracked [label="git diff # to understand changes  \ngit commit -m 'describe changes'"];
+                Fetched -> Tracked [label="git merge <branch>"]
+                };
+                Local -> Tracked [
+                                  label="git remote add origin https://github.com/splinqr",
+                                  lhead=cluster0];
+                NewProject -> Local [label="git init ."];
+                ExistingProject -> Tracked [
+                                            label="git clone https://github.com/splinqr"
+                                            lhead=cluster0];
+                Tracked -> Remote [label="git push <remote> <branch>"];
+
+                Remote -> Fetched [label="git fetch <remote>"];
+}
 custom_mark10
 </details>
 
