@@ -18,7 +18,13 @@ digraph G {
                 Tracked -> Untracked [label="Make changes\nSave changes"];
                 Untracked -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
                 Staged -> Tracked [label="git commit -m 'describe changes'"];
-                Fetched -> {Conflict, Tracked} [label="git merge <remote/branch>"];
+
+                {Conflict; Point[shape=point, label=""];
+                        rank=same;
+                        }
+
+                Fetched -> Point [label="git merge <remote/branch>"];
+                Point -> {Conflict, Tracked}
                 Conflict -> Tracked [label="Resolve Merge Conflicts\ngit commit -a"];
                 };
                 Local -> Tracked [
