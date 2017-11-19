@@ -39,7 +39,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <details>
 <summary></summary>
 custom_mark10
-digraph Simple {
+digraph G {
         aize = "4,4"
         compound=true;
         {
@@ -57,7 +57,7 @@ digraph Simple {
                 Tracked -> Untracked [label="Make changes\nSave changes"];
                 Untracked -> Staged [label="git add <filenames...>"];
                 Staged -> Tracked [label="git diff # to understand changes  \ngit commit -m 'describe changes'"];
-                Fetched -> Tracked [label="git merge <branch>"]
+                Fetched -> Tracked [label="git merge <branch>"];
                 };
                 Local -> Tracked [
                                   label="git remote add origin https://github.com/splinqr",
