@@ -39,7 +39,8 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 <details>
 <summary></summary>
 custom_mark10
-digraph {
+digraph Simple {
+        aize = "4,4"
         compound=true;
         {
                 NewProject[label="New Project", shape=doublecircle];
