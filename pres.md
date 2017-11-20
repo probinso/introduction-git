@@ -67,7 +67,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `push`
 
 ---
- 
+
 ![simplest git workflow](./git.png)
 
 ---
