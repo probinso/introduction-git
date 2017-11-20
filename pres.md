@@ -1,6 +1,6 @@
 <!-- $theme: gaia -->
 
-# Preable
+# Preamble
 **First 10 minutes** will be spent insuring everyone has
 1. `Github` account
 2. `git` installed on their computer.
@@ -14,11 +14,11 @@ _If you didn't bring a computer, make a friend instead_
 ---
 # Intro to Git
 
-This talk will not cover, or expect knowlege of, programming languages
+This talk will not cover, or expect knowledge of, programming languages
 
 1. We will introduce vocabulary
 2. Understand Simplest Workflow
-3. Attendents will contribute to collaborative demo
+3. Attendants will contribute to collaborative demo
 4. Watch a more complete real world example
 
 ---
@@ -26,14 +26,14 @@ This talk will not cover, or expect knowlege of, programming languages
 - Source and version control
 - Ledger of work
 - Collaboration tool
-- Workflow managment software
+- Workflow management software
 
 competes with : **hg**, **svn**, **cvs**, **darcs**
 
 ---
 # What is Github?
 - Git service provider
-- Account managment and access control
+- Account management and access control
 - Hosting platform
 - Ticket tracker / project management tool
 
@@ -41,15 +41,15 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 ## What to store (Github)?
-- source code (language ambiguos)
-- markdown / jupyter / pdf
-- small or static images & datasets
+- source code (language ambiguous)
+- markdown / Jupyter / pdf
+- small or static images & data-sets
 
 ## What NOT to store?
 - PASSWORDS, secrets, or private keys
-- binaries & executables (with rare exceptions)
-- large or unstable images & datasets
-- Non-parsable documents (Word, Photoshop, ...)
+- binaries & executable (with rare exceptions)
+- large or unstable images & data-sets
+- Non-pars-able documents (Word, Photoshop, ...)
 
 ---
 # Vocabulary
@@ -98,6 +98,6 @@ $
 - create / destroy user and organization accounts
 - create / destroy repository
 - fork
-- issue creation / assigment / management
+- issue creation / assignment / management
 - `pull request`
 - `gists`
