@@ -107,6 +107,7 @@ $
 # Github activities
 - `fork`
 - `pull request`
+- Code reviews
 - Create / destroy user and organization accounts
 - Access control
 - Create / destroy repository
