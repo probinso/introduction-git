@@ -73,6 +73,13 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 # Give me your Username in Exchange for A Ticket
 
 ---
+# Rules of the Game
+- 13 people per repository team {Red, Blue, Black}
+- This short story is expected ordered alphabetically
+- Each ticket represents one letter of short story
+- Your team is done when the remote repository is complete
+
+---
 # Git Commands
 - `status`, `diff`
 - `clone`, `init`
@@ -89,9 +96,6 @@ Resolving deltas: 100% (286/286), done.
 Checking connectivity... done.
 $
 ```
-
----
-# Go
 
 ---
 # Github activities
