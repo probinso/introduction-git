@@ -79,7 +79,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # Rules of the Game
-- 13 people per repository team {Red, Blue, Black}
+- 10 people per repository team {Red, Blue, Black}
 - No more than 80 characters per line
 - This short story is expected ordered alphabetically
 - Each ticket represents one letter of short story
