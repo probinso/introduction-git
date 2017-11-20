@@ -15,8 +15,8 @@ digraph G {
                 Tracked [shape=doublecircle];
                 {Untracked; Staged; rank=same;};
 
-                Tracked -> Untracked [label="Make changes\nSave changes"];
-                Untracked -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
+                Tracked -> Unstaged [label="Make changes\nSave changes"];
+                Unstaged -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
                 Staged -> Tracked [label="git commit -m 'describe changes'"];
 
                 {Conflict; Point[shape=point, label=""];
@@ -28,11 +28,11 @@ digraph G {
                 Conflict -> Tracked [label="Resolve Merge Conflicts\ngit commit -a"];
                 };
                 Local -> Tracked [
-                                  label="git remote add origin https://github.com/probinso/ABC.git",
+                                  label="git remote add <remote> <url>",
                                   lhead=cluster0];
                 NewProject -> Local [label="git init ."];
                 ExistingProject -> Tracked [
-                                            label="git clone https://github.com/probinso/ABC.git"
+                                            label="git clone <url> # defaults to origin"
                                             lhead=cluster0];
                 Tracked -> ExistingProject [label="git push <remote> <branch>", ltail=cluster0];
                 ExistingProject -> Fetched [label="git fetch <remote>"];
