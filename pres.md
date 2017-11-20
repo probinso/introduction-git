@@ -12,7 +12,7 @@ Please help your neighbors if you can
 ---
 # Intro to Git
 
-This talk will not cover, or expect knowlege, of programming languages
+This talk will not cover, or expect knowlege of, programming languages
 
 1. We will introduce vocabulary
 2. Understand Simplest Workflow
@@ -45,20 +45,20 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ## What NOT to store?
 - PASSWORDS, secrets, or private keys
-- binaries & executables (with some exceptions)
+- binaries & executables (with rare exceptions)
 - large or unstable images & datasets
 - Non-parsable documents (Word, Photoshop, ...)
 
 ---
 # Vocabulary
 - Repository (local/remote)
-- `init`
+- `init` / `clone`
 - `commit` and Commit History
 - `branch`
 - `fetch`
 - `diff`
 - `merge` and Merge Conflicts
-- `pull` / `push`
+- `push`
 
 ---
 # Simplest Git Workflow
@@ -72,9 +72,9 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
 # Git Commands
-- status, diff
-- clone, init
-- fetch, merge, commit, push
+- `status`, `diff`
+- `clone`, `init`
+- `fetch`, `merge`, `commit`, `push`, `fetch`
 
 ```bash
 $ git clone https://github.com/PortlandDataScienceGroup/ABC.git
@@ -87,6 +87,9 @@ Resolving deltas: 100% (286/286), done.
 Checking connectivity... done.
 $
 ```
+
+---
+# Go
 
 ---
 # Github activities
