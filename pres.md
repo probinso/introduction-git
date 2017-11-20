@@ -83,6 +83,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - This short story is expected ordered alphabetically
 - Each ticket represents one letter of short story
 - Your team is done when the remote repository is complete
+- 15 minutes
 
 ---
 # Git Commands
@@ -104,9 +105,26 @@ $
 
 ---
 # Github activities
-- create / destroy user and organization accounts
-- create / destroy repository
-- fork
-- issue creation / assignment / management
+- `fork`
 - `pull request`
-- `gists`
+- Create / destroy user and organization accounts
+- Access control
+- Create / destroy repository
+- Issue creation / assignment / management
+- Gists
+
+---
+# Demo
+Collaboration within a team is different than from outside, as a consiquence of access control
+
+Lets respond to a open source git issue
+
+---
+# Steps
+1. Identify an issue
+2. `fork` issue on Github
+3. `clone` repository to local directory
+4. `branch` to encapsulate our edits
+5. Edit files, save and `commit` changes
+6. `push` changes to branch on forked repository
+7. `pull request` fork-branch on original repository
