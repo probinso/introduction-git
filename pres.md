@@ -67,7 +67,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 ![simplest git workflow](./git.png)
 
 ---
-# ![The Glorious Nosebleed](./lozenge.png)
+# ![The Fatal Lozenge](./lozenge.png)
 
 ---
 # Give me your Username in Exchange for A Ticket
