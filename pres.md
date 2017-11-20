@@ -1,6 +1,8 @@
 <!-- $theme: gaia -->
 
 # Preamble
+http://bit.ly/2yZWVpX
+
 **First 10 minutes** will be spent insuring everyone has
 1. `Github` account
 2. `git` installed on their computer.
@@ -13,6 +15,8 @@ _If you didn't bring a computer, make a friend instead_
 
 ---
 # Intro to Git
+
+http://bit.ly/2yZWVpX
 
 This talk will not cover, or expect knowledge of, programming languages
 
