@@ -67,9 +67,8 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `push`
 
 ---
-## Simplest Git Workflow
-
-![simplest git workflow](./git0.png)
+ 
+![simplest git workflow](./git.png)
 
 ---
 # ![The Fatal Lozenge](./lozenge.png)

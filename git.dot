@@ -13,7 +13,7 @@ digraph G {
                 color=lightgray;
                 style=filled;
                 Tracked [shape=doublecircle];
-                {Untracked; Staged; rank=same;};
+                {Unstaged; Staged; rank=same;};
 
                 Tracked -> Unstaged [label="Make changes\nSave changes"];
                 Unstaged -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
