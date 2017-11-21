@@ -12,28 +12,28 @@ digraph G {
                 label="Local With Remote";
                 color=lightgray;
                 style=filled;
-                Tracked [shape=doublecircle];
+                UpToDate [shape=doublecircle, label="up-to-date"];
                 {Unstaged; Staged; rank=same;};
 
-                Tracked -> Unstaged [label="Make changes\nSave changes"];
+                UpToDate -> Unstaged [label="Make changes\nSave changes"];
                 Unstaged -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
-                Staged -> Tracked [label="git commit -m 'describe changes'"];
+                Staged -> UpToDate [label="git commit -m 'describe changes'"];
 
                 {Conflict; Point[shape=point, label=""];
                         rank=same;
                         }
 
                 Fetched -> Point [label="git merge <remote/branch>"];
-                Point -> {Conflict, Tracked}
-                Conflict -> Tracked [label="Resolve Merge Conflicts\ngit commit -a"];
+                Point -> {Conflict, UpToDate}
+                Conflict -> UpToDate [label="Resolve Merge Conflicts\ngit commit -a"];
                 };
-                Local -> Tracked [
+                Local -> UpToDate [
                                   label="git remote add <remote> <url>",
                                   lhead=cluster0];
                 NewProject -> Local [label="git init ."];
-                ExistingProject -> Tracked [
+                ExistingProject -> UpToDate [
                                             label="git clone <url> # defaults to origin"
                                             lhead=cluster0];
-                Tracked -> ExistingProject [label="git push <remote> <branch>", ltail=cluster0];
+                UpToDate -> ExistingProject [label="git push <remote> <branch>", ltail=cluster0];
                 ExistingProject -> Fetched [label="git fetch <remote>"];
 }
