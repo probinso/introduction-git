@@ -23,7 +23,14 @@ This talk will not cover, or expect knowledge of, programming languages
 1. We will introduce vocabulary
 2. Understand Simplest Workflow
 3. Attendants will contribute to collaborative demo
-4. Watch a more complete real world example
+
+---
+# Demo Description
+Given lines from a poem, 
+- add them to a file `README.md` 
+- belonging to an **existing repository** 
+- in **alphabetical order**.
+- Finally, share your changes
 
 ---
 # What is Git?
@@ -32,7 +39,7 @@ This talk will not cover, or expect knowledge of, programming languages
 - Collaboration tool
 - Workflow management software
 
-competes with : **hg**, **svn**, **cvs**, **darcs**
+competes with : **hg**, **svn**, **cvs**
 
 ---
 # What is Github?
@@ -56,18 +63,40 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
-# Vocabulary
-- Repository (local/remote)
-- `init` / `clone`
-- `commit` and Commit History
-- `branch`
-- `fetch`
-- `diff`
-- `merge` and Merge Conflicts
-- `push`
+# Passwords
+
+```bash
+$ cat secrets.json # this file should not be committed
+{
+    "password":"MySuperNeatoPassword!#"
+}
+```
+
+```python
+import json
+
+# this file should be commited
+
+with open('secrets.json') as fd:
+    pwd = json.load(fd)['password']
+
+print(pwd)
+```
 
 ---
+# Vocabulary
+- `remote` / `branch`
+![](branch.png)
 
+---
+# Vocabulary (continued)
+- `init` / `clone`
+- `add`/`commit` and Commit History
+- `fetch`/`merge` and Merge Conflicts
+- `push`
+- `diff`, `status`, `log`
+
+---
 ![simplest git workflow](./git.png)
 
 ---
