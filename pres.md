@@ -94,6 +94,7 @@ print(pwd)
 ---
 # Vocabulary
 - `remote` / `branch`
+
 ![](branch.png)
 
 ---
