@@ -25,7 +25,7 @@ digraph G {
 
                 Fetched -> Point [label="git merge <remote/branch>"];
                 Point -> {Conflict, UpToDate}
-                Conflict -> UpToDate [label="Resolve Merge Conflicts\ngit commit -a"];
+                Conflict -> UpToDate [label="Resolve Merge Conflicts\ngit commit -a -m 'merge conflict'"];
                 };
                 Local -> UpToDate [
                                   label="git remote add <remote> <url>",
