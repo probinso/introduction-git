@@ -36,4 +36,5 @@ digraph G {
                                             lhead=cluster0];
                 UpToDate -> ExistingProject [label="git push <remote> <branch>"];
                 ExistingProject -> Fetched [label="git fetch <remote>"];
+                //ExistingProject -> Point [style=dashed, label="git pull <origin>"];
 }
