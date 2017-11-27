@@ -4,8 +4,8 @@
 http://bit.ly/2yZWVpX
 
 **First 10 minutes** will be spent insuring everyone has
-1. `Github` account
-2. `git` installed on their computer.
+1. `git` installed on their computer.
+2. `Github` account
 
 Please sit in front of room if you haven't yet setup your environment
 
