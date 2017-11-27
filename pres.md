@@ -37,7 +37,7 @@ A is for Alice who fell down the stairs
 B is for Basil assaulted by bears
 C is for Clara who wasted away
 ...
-Z is for Zilla who drank to much gin
+Z is for Zillah who drank to much gin
 ```
 
 ---
