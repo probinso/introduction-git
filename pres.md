@@ -25,12 +25,20 @@ This talk will not cover, or expect knowledge of, programming languages
 3. Attendants will contribute to collaborative demo
 
 ---
-# Demo Description
-Given lines from a poem, 
+# Your Project!
+- After I assign you a letter-line pair, 
 - add them to a file `README.md` 
 - belonging to an **existing repository** 
 - in **alphabetical order**.
 - Finally, share your changes
+
+```text
+A is for Alice who fell down the stairs
+B is for Basil assaulted by bears
+C is for Clara who wasted away
+...
+Z is for Zilla who drank to much gin
+```
 
 ---
 # What is Git?
@@ -90,21 +98,21 @@ print(pwd)
 
 ---
 # Vocabulary (continued)
-- `init` / `clone`
-- `add`/`commit` and Commit History
-- `fetch`/`merge` and Merge Conflicts
-- `push`
-- `diff`, `status`, `log`
+- `init` / `clone` - Starts Project
+- `add`/`commit` and Commit History - Tracks Changes
+- `fetch`/`merge` and Merge Conflicts 
+- `push` - Share Changes
+- `diff`, `status`, `log` - What state am I in?
 
 ---
 
 ![simplest git workflow](./git.png)
 
 ---
-# ![The Fatal Lozenge](./lozenge.png)
+# Give me your Username in Exchange for A Ticket
 
 ---
-# Give me your Username in Exchange for A Ticket
+# ![The Fatal Lozenge](./lozenge.png)
 
 ---
 # Rules of the Game
