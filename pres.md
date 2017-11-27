@@ -97,6 +97,7 @@ print(pwd)
 - `diff`, `status`, `log`
 
 ---
+
 ![simplest git workflow](./git.png)
 
 ---

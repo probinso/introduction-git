@@ -32,8 +32,8 @@ digraph G {
                                   lhead=cluster0];
                 NewProject -> Local [label="git init ."];
                 ExistingProject -> UpToDate [
-                                            label="git clone <url> # defaults to origin"
+                                            label=" #defaults to origin\ngit clone <url>"
                                             lhead=cluster0];
-                UpToDate -> ExistingProject [label="git push <remote> <branch>", ltail=cluster0];
+                UpToDate -> ExistingProject [label="git push <remote> <branch>"];
                 ExistingProject -> Fetched [label="git fetch <remote>"];
 }
