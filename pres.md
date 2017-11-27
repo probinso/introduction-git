@@ -105,7 +105,7 @@ print(pwd)
 - `diff`, `status`, `log` - What state am I in?
 
 ---
-
+# Workflow Map
 ![simplest git workflow](./git.png)
 
 ---

@@ -2,8 +2,8 @@ digraph G {
         aize = "4,4"
         compound=true;
         {
-                NewProject[label="New Project", shape=doublecircle];
                 ExistingProject[label="Existing Project", shape=doublecircle];
+                NewProject[label="New Project", shape=doublecircle];
                 rank=same;
                 };
 
@@ -19,7 +19,8 @@ digraph G {
                 Unstaged -> Staged [label="git diff # to understand changes\ngit add <filenames...>"];
                 Staged -> UpToDate [label="git commit -m 'describe changes'"];
 
-                {Conflict; Point[shape=point, label=""];
+                {Fetched; Conflict;
+                        Point[shape=point, label=""];
                         rank=same;
                         }
 
