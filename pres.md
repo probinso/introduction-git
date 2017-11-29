@@ -94,12 +94,10 @@ print(pwd)
 ---
 # Vocabulary (I)
 - `remote`
-
-**A remote, in Git, is a repository that collaborators use to share document changes. Remote repositories are usually stored on a code hosting service like GitHub, or on an internal server.**
+**remote labels alias another location**
 
 ![](remote.png)
 
-**remotes act as aliases for a `<url>` with a label like `origin`**
 
 ---
 # Vocabulary (II)
