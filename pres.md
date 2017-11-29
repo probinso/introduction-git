@@ -97,12 +97,9 @@ print(pwd)
 
 **A remote, in Git, is a repository that collaborators use to share document changes. Remote repositories are usually stored on a code hosting service like GitHub, or on an internal server.**
 
-```
-git remote add origin <url>
-```
 ![](remote.png)
 
-**this command aliases the `<url>` to the label `origin`**
+**remotes act as aliases for a `<url>` with the label `origin`**
 
 ---
 # Vocabulary (II)
