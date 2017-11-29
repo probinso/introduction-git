@@ -99,7 +99,7 @@ print(pwd)
 
 ![](remote.png)
 
-**remotes act as aliases for a `<url>` with the label `origin`**
+**remotes act as aliases for a `<url>` with a label like `origin`**
 
 ---
 # Vocabulary (II)
