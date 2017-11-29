@@ -14,6 +14,13 @@ Please help your neighbors if you can
 _If you didn't bring a computer, make a friend instead_
 
 ---
+# Portland Data Science Group / PDXData
+
+## Thanks to New Relic for hosting this talk!
+
+<img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://avatars0.githubusercontent.com/u/19834202?s=460&v=4" width="270px" /> <img src="https://avatars1.githubusercontent.com/u/8211563?s=460&v=4" width="270px" />
+
+---
 # Intro to Git
 
 http://bit.ly/2yZWVpX
