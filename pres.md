@@ -65,9 +65,9 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - small or static images & data-sets
 
 ## What NOT to store?
-- PASSWORDS, secrets, or private keys
-- binaries & executable (with rare exceptions)
-- large or unstable images & data-sets
+- PASSWORDS, access tokens, secrets, or private keys
+- compiled binaries
+- large images & data-sets
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
