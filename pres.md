@@ -3,7 +3,7 @@
 # Preamble
 http://bit.ly/2yZWVpX
 
-**First 10 minutes** will be spent insuring everyone has
+**First 10 minutes** will be spent ensuring everyone has
 1. `git` installed on their computer.
 2. `Github` account
 
