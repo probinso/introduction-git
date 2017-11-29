@@ -3,7 +3,7 @@
 # Preamble
 http://bit.ly/2yZWVpX
 
-**First 10 minutes** will be spent insuring everyone has
+**First 10 minutes** will be spent ensuring everyone has
 1. `git` installed on their computer.
 2. `Github` account
 
@@ -92,13 +92,25 @@ print(pwd)
 ```
 
 ---
-# Vocabulary
-- `remote` / `branch`
+# Vocabulary (I)
+- `remote`
+
+**A remote, in Git, is a repository that collaborators use to share document changes. Remote repositories are usually stored on a code hosting service like GitHub, or on an internal server.**
+
+```
+git remote add origin <url>
+```
+
+**this command aliases the `<url>` to the label `origin`**
+
+---
+# Vocabulary (II)
+- `branch`
 
 ![](branch.png)
 
 ---
-# Vocabulary (continued)
+# Vocabulary (III)
 - `init` / `clone` - Starts Project
 - `add`/`commit` and Commit History - Tracks Changes
 - `fetch`/`merge` and Merge Conflicts 
