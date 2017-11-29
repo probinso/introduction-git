@@ -5,7 +5,7 @@ http://bit.ly/2yZWVpX
 
 **First 10 minutes** will be spent ensuring everyone has
 1. `git` installed on their computer.
-2. `Github` account
+2. `Github` account setup & give username to speaker
 
 Please sit in front of room if you haven't yet setup your environment
 
@@ -125,10 +125,10 @@ print(pwd)
 ![simplest git workflow](./git.png)
 
 ---
-# Give me your Username in Exchange for A Ticket
+# ![The Fatal Lozenge](./lozenge.png)
 
 ---
-# ![The Fatal Lozenge](./lozenge.png)
+# Give me your Username in Exchange for A Ticket
 
 ---
 # Rules of the Game
