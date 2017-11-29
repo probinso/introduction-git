@@ -26,9 +26,11 @@ http://bit.ly/2yZWVpX
 
 This talk will not cover, or expect knowledge of, programming languages
 
-1. We will introduce vocabulary
-2. Understand Simplest Workflow
-3. Attendants will contribute to collaborative demo
+1. Introduce collaborative demo
+2. We will introduce vocabulary
+3. Understand Simplest Workflow
+4. Attendants will contribute to collaborative demo
+5. Talk about access control
 
 ---
 # Your Project!
