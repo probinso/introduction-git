@@ -92,13 +92,25 @@ print(pwd)
 ```
 
 ---
-# Vocabulary
-- `remote` / `branch`
+# Vocabulary (I)
+- `remote`
+
+**A remote, in Git, is a repository that all collaborators use to share document changes. In most cases, such a remote repository is stored on a code hosting service like GitHub, or on an internal server.**
+
+```
+git remote add origin <url>
+```
+
+**this command aliases the `<url>` to the label `origin`**
+
+---
+# Vocabulary (II)
+- `branch`
 
 ![](branch.png)
 
 ---
-# Vocabulary (continued)
+# Vocabulary (III)
 - `init` / `clone` - Starts Project
 - `add`/`commit` and Commit History - Tracks Changes
 - `fetch`/`merge` and Merge Conflicts 
