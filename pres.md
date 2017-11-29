@@ -26,9 +26,9 @@ This talk will not cover, or expect knowledge of, programming languages
 
 ---
 # Your Project!
-- After I assign you a letter-line pair, 
-- add them to a file `README.md` 
-- belonging to an **existing repository** 
+- After I assign you a letter-line pair,
+- add them to a file `README.md`
+- belonging to an **existing repository**
 - in **alphabetical order**.
 - Finally, share your changes
 
@@ -100,6 +100,7 @@ print(pwd)
 ```
 git remote add origin <url>
 ```
+![](remote.png)
 
 **this command aliases the `<url>` to the label `origin`**
 
@@ -113,7 +114,7 @@ git remote add origin <url>
 # Vocabulary (III)
 - `init` / `clone` - Starts Project
 - `add`/`commit` and Commit History - Tracks Changes
-- `fetch`/`merge` and Merge Conflicts 
+- `fetch`/`merge` and Merge Conflicts
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
 
