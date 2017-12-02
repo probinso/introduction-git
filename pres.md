@@ -9,8 +9,9 @@ http://bit.ly/2yZWVpX
 
 Please sit in front of room if you haven't yet setup your environment
 
-
 _If you didn't bring a computer, make a friend instead_
+
+_I will not use GUI tools for Git_
 
 ---
 # PDXData / PDSG
