@@ -3,8 +3,8 @@
 # Preamble
 http://bit.ly/2yZWVpX
 
-**First 10 minutes** will be spent ensuring everyone has
-1. `git` installed on their computer.
+**First 10 minutes** will be used to ensure
+1. `git` installed on your computer.
 2. `Github` account setup & give username to speaker
 
 Please sit in front of room if you haven't yet setup your environment
