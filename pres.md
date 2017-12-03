@@ -11,8 +11,6 @@ Please sit in front of room if you haven't yet setup your environment
 
 _If you didn't bring a computer, make a friend instead_
 
-_I will not use GUI tools for Git_
-
 ---
 # PDXData / PDSG
 
@@ -74,7 +72,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - small or static images & data-sets
 
 ## What NOT to store?
-- PASSWORDS, access tokens, secrets, or private keys
+- PASSWORDS, access tokens, or private keys
 - compiled binaries
 - large images & data-sets
 - Non-pars-able documents (Word, Photoshop, ...)
@@ -121,22 +119,16 @@ print(pwd)
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
 
-# Merge Conflicts
+---
+## Merge Conflicts
 ```bash
 $ git status
 # On branch branch-b
-# You have unmerged paths.
-#   (fix conflicts and run "git commit")
-#
-# Unmerged paths:
-#   (use "git add ..." to mark resolution)
-#
-# both modified:      styleguide.md
-#
-no changes added to commit (use "git add" and/or "git commit -a")
+...
+# both modified:
 ```
 
-```bash
+```text
 $ cat styleguide.md
 If you have questions, please
 <<<<<<< HEAD
@@ -145,9 +137,11 @@ open an issue
 ask your question in IRC.
 >>>>>>> branch-a
 ```
-```bash
+
+```text
 $ cat styleguide.md
-If you have questions, please open an issue or ask your question in IRC.
+If you have questions, please open an issue or
+ask your question in IRC.
 ```
 
 ---
@@ -160,13 +154,15 @@ If you have questions, please open an issue or ask your question in IRC.
 
 If you don't use the `-m` message flag, you will likely be subject to `vim`. `vim` can be a very frustrating file editor, if you don't bother to learn it.
 
+_Look into how to change your default `EDITOR` for your operating system._
+
+---
+# Vim
 To exit `vim`, Hit the `Esc` key to enter "Command mode". Then you can type `:` to enter "Command-line mode". A colon (`:`) will appear at the bottom of the screen and you can type in one of the following commands. To execute a command, press the `Enter` key.
 
   - `:q` to quit (short for `:quit`)
   - `:q!` to quit without saving (short for `:quit!`)
   - `:wq` to write and `quit`
-
-_Look into how to change your default `EDITOR` for your operating system._
 
 ---
 # Defaults and `config`
@@ -183,15 +179,14 @@ $ git config --global user.email johndoe@example.com
 # Give me your Username in Exchange for A Ticket
 
 ---
-# Rules of the Game
+# Rules of the Game (15 min)
 - 10 people per repository team {Red, Blue, Black}
 - No more than 80 characters per line
 - This poem is expected ordered alphabetically
 - Each ticket represents one letter of short story
 - Your team is done when the remote repository is complete
-- 15 minutes
-- Perform at least one `diff` against `origin/master`
-- Review the `log` at least once
+- Do a `diff` against `origin/master` before a `merge` 
+- Review the `log` at least once (`q` to quit)
 
 ---
 # Git Commands
