@@ -80,25 +80,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
-# Passwords
-
-```bash
-$ cat secrets.json # this file should not be committed
-{
-    "password":"MySuperNeatoPassword!#"
-}
-```
-
-```python
-import json
-
-# this file should be commited
-
-with open('secrets.json') as fd:
-    pwd = json.load(fd)['password']
-
-print(pwd)
-```
+# 
 
 ---
 # Vocabulary (I)
@@ -124,6 +106,21 @@ print(pwd)
 ---
 # Workflow Map
 ![simplest git workflow](./git.png)
+
+
+---
+# Defaults to know about
+- `EDITOR`, `Vim`
+`:q` to quit (short for `:quit`)
+`:q!` to quit without saving (short for `:quit!`)
+`:wq` to write and `quit`
+
+- `configs`
+
+```bash
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
 
 ---
 # ![The Fatal Lozenge](./lozenge.png)
@@ -184,3 +181,24 @@ Lets respond to a open source git issue
 5. Edit files, save and `commit` changes
 6. `push` changes to branch on forked repository
 7. `pull request` fork-branch on original repository
+
+---
+# Passwords
+
+```bash
+$ cat secrets.json # this file should not be committed
+{
+    "password":"MySuperNeatoPassword!#"
+}
+```
+
+```python
+import json
+
+# this file should be commited
+
+with open('secrets.json') as fd:
+    pwd = json.load(fd)['password']
+
+print(pwd)
+```
