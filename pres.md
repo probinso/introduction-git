@@ -121,6 +121,35 @@ print(pwd)
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
 
+# Merge Conflicts
+```bash
+$ git status
+# On branch branch-b
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+#
+# Unmerged paths:
+#   (use "git add ..." to mark resolution)
+#
+# both modified:      styleguide.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+```bash
+$ cat styleguide.md
+If you have questions, please
+<<<<<<< HEAD
+open an issue
+=======
+ask your question in IRC.
+>>>>>>> branch-a
+```
+```bash
+$ cat styleguide.md
+If you have questions, please open an issue or ask your question in IRC.
+```
+
 ---
 # Workflow Map
 ![simplest git workflow](./git.png)
