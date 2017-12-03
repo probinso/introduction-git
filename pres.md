@@ -80,7 +80,25 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
-# 
+# Passwords
+
+```bash
+$ cat secrets.json # this file should not be committed
+{
+    "password":"MySuperNeatoPassword!#"
+}
+```
+
+```python
+import json
+
+# this file should be commited
+
+with open('secrets.json') as fd:
+    pwd = json.load(fd)['password']
+
+print(pwd)
+```
 
 ---
 # Vocabulary (I)
@@ -109,13 +127,20 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 
 ---
-# Defaults to know about
-- `EDITOR`, `Vim`
-`:q` to quit (short for `:quit`)
-`:q!` to quit without saving (short for `:quit!`)
-`:wq` to write and `quit`
+# Message Flag and Editor
 
-- `configs`
+If you don't use the `-m` message flag, you will likely be subject to `vim`. `vim` can be a very frustrating file editor, if you don't bother to learn it.
+
+To exit `vim`, Hit the `Esc` key to enter "Command mode". Then you can type `:` to enter "Command-line mode". A colon (`:`) will appear at the bottom of the screen and you can type in one of the following commands. To execute a command, press the `Enter` key.
+
+  - `:q` to quit (short for `:quit`)
+  - `:q!` to quit without saving (short for `:quit!`)
+  - `:wq` to write and `quit`
+
+_Look into how to change your default `EDITOR` for your operating system._
+
+---
+# Defaults and `config`
 
 ```bash
 $ git config --global user.name "John Doe"
@@ -136,6 +161,8 @@ $ git config --global user.email johndoe@example.com
 - Each ticket represents one letter of short story
 - Your team is done when the remote repository is complete
 - 15 minutes
+- Perform at least one `diff` against `origin/master`
+- Review the `log` at least once
 
 ---
 # Git Commands
@@ -182,23 +209,3 @@ Lets respond to a open source git issue
 6. `push` changes to branch on forked repository
 7. `pull request` fork-branch on original repository
 
----
-# Passwords
-
-```bash
-$ cat secrets.json # this file should not be committed
-{
-    "password":"MySuperNeatoPassword!#"
-}
-```
-
-```python
-import json
-
-# this file should be commited
-
-with open('secrets.json') as fd:
-    pwd = json.load(fd)['password']
-
-print(pwd)
-```
