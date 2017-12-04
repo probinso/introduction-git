@@ -9,7 +9,7 @@ http://bit.ly/2yZWVpX
 
 Please sit in front of room if you haven't yet setup your environment
 
-_If you didn't bring a computer, make a friend instead_
+_If you didn't bring a computer, or are unfamilure with terminal commands, make a friend instead_
 
 ---
 # PDXData / PDSG
@@ -23,17 +23,23 @@ _If you didn't bring a computer, make a friend instead_
 
 http://bit.ly/2yZWVpX
 
-This talk will not cover, or expect knowledge of, programming languages
+This talk will not cover, or expect, specific programming languages
 
 1. Introduce collaborative demo
 2. We will introduce vocabulary
 3. Understand Simplest Workflow
 4. Attendants will contribute to collaborative demo
-5. Talk about access control
+5. Talk about access control and Github
+
+---
+# Why do you Care?
+- No more emailing document revisions
+- Simpler Local Files
+- Remote Storage
 
 ---
 # Your Project!
-- After I assign you a letter-line pair,
+- After I assign you a **pannel** of content,
 - add them to a file `README.md`
 - belonging to an **existing repository**
 - in **alphabetical order**.
@@ -115,6 +121,7 @@ print(pwd)
 # Vocabulary (III)
 - `init` / `clone` - Starts Project
 - `add`/`commit` and Commit History - Tracks Changes
+- `checkout` - change working copy to different revision/version
 - `fetch`/`merge` and Merge Conflicts
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
@@ -181,11 +188,11 @@ $ git config --global user.email johndoe@example.com
 ---
 # Rules of the Game (15 min)
 - 10 people per repository team {Red, Blue, Black}
-- No more than 80 characters per line
-- This poem is expected ordered alphabetically
-- Each ticket represents one letter of short story
-- Your team is done when the remote repository is complete
-- Do a `diff` against `origin/master` before a `merge` 
+- Each pannel represents one entry from poem
+- Pannel text split into lines of No more than 80 characters
+- This poem is expected ordered alphabetically (by second word)
+- Your team is done when distributed pannels are added
+- Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
 
 ---
@@ -207,9 +214,17 @@ $
 ```
 
 ---
+# Intermission
+
+---
+# Collaborating without Permission
+Collaboration within a team is different than from outside, as a consiquence of access control.
+
+- `fork` - Copies repository
+- `pull request` - Shares changes
+
+---
 # Github activities
-- `fork`
-- `pull request`
 - Code reviews
 - Create / destroy user and organization accounts
 - Access control
@@ -218,18 +233,25 @@ $
 - Gists
 
 ---
-# Demo
-Collaboration within a team is different than from outside, as a consiquence of access control
-
-Lets respond to a open source git issue
+# Steps
+1. `fork` issue on Github
+2. `clone` repository to local directory
+3. `branch` to encapsulate our edits
+4. Edit files, save and `commit` changes
+5. `push` changes to branch on forked repository
+6. `pull request` fork-branch on original repository
 
 ---
-# Steps
-1. Identify an issue
-2. `fork` issue on Github
-3. `clone` repository to local directory
-4. `branch` to encapsulate our edits
-5. Edit files, save and `commit` changes
-6. `push` changes to branch on forked repository
-7. `pull request` fork-branch on original repository
+# Courtesy
+- Look for a `CONTRIBUTORS.md` file
+- Look for style guides
+- Read documentation before collaborating
+- Take code review feedback seriously and not personally
 
+---
+# To Learn Next
+- Understanding branching model, and verison numbers
+- `GitFlow` http://nvie.com/posts/a-successful-git-branching-model/
+
+---
+# Portland DSG
