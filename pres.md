@@ -12,7 +12,7 @@ Please sit in front of room if you haven't yet setup your environment
 _If you didn't bring a computer, make a friend instead_
 
 ---
-# PDXData / PDSG
+# Portland DSG
 
 #### Thanks to <u>New Relic</u> for hosting this talk!
 
@@ -185,7 +185,7 @@ $ git config --global user.email johndoe@example.com
 - This poem is expected ordered alphabetically
 - Each ticket represents one letter of short story
 - Your team is done when the remote repository is complete
-- Do a `diff` against `origin/master` before a `merge` 
+- Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
 
 ---
@@ -232,4 +232,3 @@ Lets respond to a open source git issue
 5. Edit files, save and `commit` changes
 6. `push` changes to branch on forked repository
 7. `pull request` fork-branch on original repository
-
