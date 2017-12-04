@@ -242,7 +242,7 @@ _Collaboration within a team is different than from outside, as a consiquence of
 5. `pull request` fork-branch on original repository
 
 ---
-# Courtesy
+# Collaboration Etiquette
 - Look for a `CONTRIBUTORS.md` file
 - Look for style guides
 - Read documentation before collaborating
