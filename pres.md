@@ -237,9 +237,12 @@ _Collaboration within a team is different than from outside, as a consiquence of
 # Steps
 1. `fork` repository on Github
 2. `clone` forked repository to local directory
-3. Edit files, save and `commit` changes
-4. `push` changes to branch on forked repository
-5. `pull request` fork-branch on original repository
+3. `add upstream` directed toward original repositry
+4. create `branch` to encapsulate your modifications
+6. Edit files, save and `commit` changes to `branch` 
+7. `push origin <branch-name>` on forked repository
+8. `pull request` fork-branch on original repository
+9. `fetch upstream` after your pull request has been filled
 
 ---
 # Collaboration Etiquette
