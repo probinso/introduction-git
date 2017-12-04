@@ -115,7 +115,8 @@ print(pwd)
 
 ---
 # Vocabulary (II)
-- `branch`
+- `branch` - encapulates a feature ledger
+- `checkout` - swaps your current working copy
 
 ![](branch.png)
 
@@ -126,6 +127,10 @@ print(pwd)
 - `fetch`/`merge` and Merge Conflicts
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
+
+---
+# Inspecting the Repository
+<!-- this is where I will clone, then look at the status, log, and diff of a repository -->
 
 ---
 ## Merge Conflicts
@@ -238,11 +243,15 @@ _Collaboration within a team is different than from outside, as a consiquence of
 1. `fork` repository on Github
 2. `clone` forked repository to local directory
 3. `add upstream` directed toward original repositry
-4. create `branch` to encapsulate your modifications
-6. Edit files, save and `commit` changes to `branch` 
-7. `push origin <branch-name>` on forked repository
-8. `pull request` fork-branch on original repository
-9. `fetch upstream` after your pull request has been filled
+6. Edit files, save, then `commit` changes forked repository
+8. `pull request` against original repository
+
+---
+# Branching
+Branching allows easy 
+- emcapsulation of features
+- `diff` between features
+- makes for simpler `pull requests`
 
 ---
 # Collaboration Etiquette
