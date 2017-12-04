@@ -9,7 +9,7 @@ http://bit.ly/2yZWVpX
 
 Please sit in front of room if you haven't yet setup your environment
 
-_If you didn't bring a computer, or are unfamilure with terminal commands, make a friend instead_
+_If you didn't bring a computer, or are unfamilure with terminal commands, make a friend_
 
 ---
 # Portland DSG
@@ -34,13 +34,15 @@ This talk will not cover, or expect, specific programming languages
 ---
 # Why do you Care?
 - No more emailing document revisions
-- Simpler Local Files
-- Remote Storage
+- Simpler local files
+- Remote storage
+- Stable workflow
+- Easily add new collaborators to project
 
 ---
 # Your Project!
 - After I assign you a **pannel** of content,
-- add them to a file `README.md`
+- add **pannel** contents to the `README.md` file
 - belonging to an **existing repository**
 - in **alphabetical order**.
 - Finally, share your changes
@@ -121,7 +123,6 @@ print(pwd)
 # Vocabulary (III)
 - `init` / `clone` - Starts Project
 - `add`/`commit` and Commit History - Tracks Changes
-- `checkout` - change working copy to different revision/version
 - `fetch`/`merge` and Merge Conflicts
 - `push` - Share Changes
 - `diff`, `status`, `log` - What state am I in?
@@ -180,25 +181,18 @@ $ git config --global user.email johndoe@example.com
 ```
 
 ---
-# ![The Fatal Lozenge](./lozenge.png)
-
----
 # Give me your Username in Exchange for A Ticket
 
 ---
-# Rules of the Game (15 min)
+# ![The Fatal Lozenge](./lozenge.png)
+
+---
+# Rules of the Game (20 min)
 - 10 people per repository team {Red, Blue, Black}
-<<<<<<< HEAD
-- No more than 80 characters per line
-- This poem is expected ordered alphabetically
-- Each ticket represents one letter of short story
-- Your team is done when the remote repository is complete
-=======
 - Each pannel represents one entry from poem
-- Pannel text split into lines of No more than 80 characters
-- This poem is expected ordered alphabetically (by second word)
-- Your team is done when distributed pannels are added
->>>>>>> 6067a1309927c9bbf94a838d2ca251bf3571ed26
+- Split pannel text lines with <= 80 characters
+- Pannels ordered alphabetically (by second word)
+- Your team is done when all pannels added
 - Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
 
@@ -224,13 +218,6 @@ $
 # Intermission
 
 ---
-# Collaborating without Permission
-Collaboration within a team is different than from outside, as a consiquence of access control.
-
-- `fork` - Copies repository
-- `pull request` - Shares changes
-
----
 # Github activities
 - Code reviews
 - Create / destroy user and organization accounts
@@ -240,13 +227,19 @@ Collaboration within a team is different than from outside, as a consiquence of 
 - Gists
 
 ---
+# Collaborating without Permission
+_Collaboration within a team is different than from outside, as a consiquence of access control._
+
+- `fork` - Copies repository
+- `pull request` - Shares changes back to source
+
+---
 # Steps
-1. `fork` issue on Github
-2. `clone` repository to local directory
-3. `branch` to encapsulate our edits
-4. Edit files, save and `commit` changes
-5. `push` changes to branch on forked repository
-6. `pull request` fork-branch on original repository
+1. `fork` repository on Github
+2. `clone` forked repository to local directory
+3. Edit files, save and `commit` changes
+4. `push` changes to branch on forked repository
+5. `pull request` fork-branch on original repository
 
 ---
 # Courtesy
@@ -254,22 +247,18 @@ Collaboration within a team is different than from outside, as a consiquence of 
 - Look for style guides
 - Read documentation before collaborating
 - Take code review feedback seriously and not personally
+- Identify an appropriate `issue` for your skill level
+- `rebase  -i` to encapsulate solution to single `issue`
 
 ---
-<<<<<<< HEAD
-# Steps
-1. Identify an issue
-2. `fork` issue on Github
-3. `clone` repository to local directory
-4. `branch` to encapsulate our edits
-5. Edit files, save and `commit` changes
-6. `push` changes to branch on forked repository
-7. `pull request` fork-branch on original repository
-=======
 # To Learn Next
-- Understanding branching model, and verison numbers
+- Github `issues`
+- `checkout` - use another version as working copy
+- `branch` - encapsulate work
+- `rebase`/`rebase -i` - edit branch history
+- Learn about branching models
+- Learn about version numbers
 - `GitFlow` http://nvie.com/posts/a-successful-git-branching-model/
 
 ---
 # Portland DSG
->>>>>>> 6067a1309927c9bbf94a838d2ca251bf3571ed26
