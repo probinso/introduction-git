@@ -34,9 +34,9 @@ This talk will not cover, or expect, specific programming languages
 ---
 # Goals
 If you successfully finish workshop, you will
-- be able to use git to collaborate on simple projects
-- understand vocabulary around basic git workflows
-- know how/what to study next, to grow your git-foo
+- be able to collaborate on simple projects
+- understand basic vocabulary for git
+- know how/what to study next
 
 ---
 # Why do you Care?
