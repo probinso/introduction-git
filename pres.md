@@ -199,8 +199,7 @@ $ git config --global user.email johndoe@example.com
 # ![The Fatal Lozenge](./lozenge.png)
 
 ---
-# Rules of the Game (20 min)
-https://github.com/PortlandDataScienceGroup/red.git
+# Rules of the Game (15 min)
 - 10 people per repository team {red, blue, black}
 - Each pannel represents one entry from poem
 - Split pannel text lines with <= 80 characters
@@ -208,6 +207,11 @@ https://github.com/PortlandDataScienceGroup/red.git
 - Your team is done when all pannels added
 - Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
+
+<sup>
+team == red
+https://github.com/PortlandDataScienceGroup/red.git
+</sup>
 
 ---
 # Git Commands
