@@ -203,7 +203,7 @@ $ git config --global user.email johndoe@example.com
 
 ---
 # Rules of the Game (20 min)
-https://github.com/PortlandDatascienceGroup/red.git
+https://github.com/PortlandDataScienceGroup/red.git
 - 10 people per repository team {red, blue, black}
 - Each pannel represents one entry from poem
 - Split pannel text lines with <= 80 characters
