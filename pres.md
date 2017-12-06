@@ -5,7 +5,7 @@ http://bit.ly/2yZWVpX
 
 **First 10 minutes** will be used to ensure
 1. `git` installed on your computer.
-2. `Github` account setup & give username to speaker
+2. `Github` account setup & give username to the TAs
 
 Please sit in front of room if you haven't yet setup your environment
 
@@ -32,9 +32,19 @@ This talk will not cover, or expect, specific programming languages
 5. Talk about access control and Github
 
 ---
+# Goals
+If you successfully finish workshop, you will
+- be able to use git to collaborate on simple projects
+- understand vocabulary around basic git workflows
+- know how/what to study next, to grow your git-foo
+
+If I successfully finish workshop
+- one of you will be able to present next time
+
+---
 # Why do you Care?
 - No more emailing document revisions
-- Simpler local files
+- Simpler local directory/file structures
 - Remote storage
 - Stable workflow
 - Easily add new collaborators to project
@@ -115,8 +125,8 @@ print(pwd)
 
 ---
 # Vocabulary (II)
-- `branch` - encapulates a feature ledger
-- `checkout` - swaps your current working copy
+- `branch` - encapulates a split in ledgered work
+- `checkout` - swaps your current working copy to a target
 
 ![](branch.png)
 
@@ -193,7 +203,8 @@ $ git config --global user.email johndoe@example.com
 
 ---
 # Rules of the Game (20 min)
-- 10 people per repository team {Red, Blue, Black}
+https://github.com/PortlandDatascienceGroup/red.git
+- 10 people per repository team {red, blue, black}
 - Each pannel represents one entry from poem
 - Split pannel text lines with <= 80 characters
 - Pannels ordered alphabetically (by second word)
@@ -203,7 +214,7 @@ $ git config --global user.email johndoe@example.com
 
 ---
 # Git Commands
-- `status`, `diff`
+- `status`, `diff`, `log`
 - `clone`, `init`
 - `fetch`, `merge`, `commit`, `push`, `fetch`
 
@@ -243,15 +254,15 @@ _Collaboration within a team is different than from outside, as a consiquence of
 1. `fork` repository on Github
 2. `clone` forked repository to local directory
 3. `add upstream` directed toward original repositry
-6. Edit files, save, then `commit` changes forked repository
+6. Edit files, save, `commit`, then `push` changes forked repository
 8. `pull request` against original repository
 
 ---
 # Branching
-Branching allows easy 
+Branching allows
 - emcapsulation of features
-- `diff` between features
-- makes for simpler `pull requests`
+- simple `diff`s between features
+- easier `pull requests`
 
 ---
 # Collaboration Etiquette
