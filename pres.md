@@ -38,9 +38,6 @@ If you successfully finish workshop, you will
 - understand vocabulary around basic git workflows
 - know how/what to study next, to grow your git-foo
 
-If I successfully finish workshop
-- one of you will be able to present next time
-
 ---
 # Why do you Care?
 - No more emailing document revisions
@@ -125,8 +122,8 @@ print(pwd)
 
 ---
 # Vocabulary (II)
-- `branch` - encapulates a split in ledgered work
-- `checkout` - swaps your current working copy to a target
+- `branch` - encapulates a split in ledger of work
+- `checkout` - swaps current working copy to a target
 
 ![](branch.png)
 
