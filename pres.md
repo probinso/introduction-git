@@ -193,7 +193,7 @@ $ git config --global user.email johndoe@example.com
 ```
 
 ---
-# Give me your Username in Exchange for A Ticket
+# Give me your Username in Exchange for A Panel
 
 ---
 # ![The Fatal Lozenge](./lozenge.png)
@@ -203,7 +203,7 @@ $ git config --global user.email johndoe@example.com
 - 10 people per repository team {red, blue, black}
 - Each panel represents one entry from poem
 - Split panel text lines with <= 80 characters
-- Pannels ordered alphabetically (by second word)
+- Panels ordered alphabetically (by second word)
 - Your team is done when all panels added
 - Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
@@ -245,7 +245,7 @@ $
 
 ---
 # Collaborating without Permission
-_Collaboration within a team is different than from outside, as a consiquence of access control._
+_Collaboration within a team is different than from outside, as a consequence of access control._
 
 - `fork` - Copies repository
 - `pull request` - Shares changes back to source
@@ -254,14 +254,14 @@ _Collaboration within a team is different than from outside, as a consiquence of
 # Steps
 1. `fork` repository on Github
 2. `clone` forked repository to local directory
-3. `add upstream` directed toward original repositry
+3. `add upstream` directed toward original repository
 6. Edit files, save, `commit`, then `push` changes forked repository
 8. `pull request` against original repository
 
 ---
 # Branching
 Branching allows
-- emcapsulation of features
+- encapsulation of features
 - simple `diff`s between features
 - easier `pull requests`
 
@@ -282,7 +282,10 @@ Branching allows
 - `rebase`/`rebase -i` - edit branch history
 - Learn about branching models
 - Learn about version numbers
-- `GitFlow` http://nvie.com/posts/a-successful-git-branching-model/
 
 ---
-# Portland DSG
+# Additional Resources
+- `GitFlow` http://nvie.com/posts/a-successful-git-branching-model/
+- *Cheatsheet* https://the-awesome-git-cheat-sheet.com/
+- *Data Camp* https://www.datacamp.com/courses/introduction-to-git-for-data-science
+- *Udacity* https://www.udacity.com/course/how-to-use-git-and-github--ud775
