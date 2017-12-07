@@ -9,7 +9,7 @@ http://bit.ly/2yZWVpX
 
 Please sit in front of room if you haven't yet setup your environment
 
-_If you didn't bring a computer, or are unfamilure with terminal commands, make a friend_
+_If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
 # Portland DSG
@@ -48,8 +48,8 @@ If you successfully finish workshop, you will
 
 ---
 # Your Project!
-- After I assign you a **pannel** of content,
-- add **pannel** contents to the `README.md` file
+- After I assign you a **panel** of content,
+- add **panel** contents to the `README.md` file
 - belonging to an **existing repository**
 - in **alphabetical order**.
 - Finally, share your changes
@@ -122,7 +122,7 @@ print(pwd)
 
 ---
 # Vocabulary (II)
-- `branch` - encapulates a split in ledger of work
+- `branch` - encapsulates a split in ledger of work
 - `checkout` - swaps current working copy to a target
 
 ![](branch.png)
@@ -201,10 +201,10 @@ $ git config --global user.email johndoe@example.com
 ---
 # Rules of the Game (15 min)
 - 10 people per repository team {red, blue, black}
-- Each pannel represents one entry from poem
-- Split pannel text lines with <= 80 characters
+- Each panel represents one entry from poem
+- Split panel text lines with <= 80 characters
 - Pannels ordered alphabetically (by second word)
-- Your team is done when all pannels added
+- Your team is done when all panels added
 - Do a `diff` against `origin/master` before a `merge`
 - Review the `log` at least once (`q` to quit)
 
