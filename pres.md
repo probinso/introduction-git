@@ -12,11 +12,11 @@ Please sit in front of room if you haven't yet setup your environment
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
-# Portland DSG
+# Portland BioData Club
 
-#### Thanks to <u>New Relic</u> for hosting this talk!
+#### Thanks to OHSU for hosting
 
-<img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://avatars0.githubusercontent.com/u/19834202?s=460&v=4" width="270px" /> <img src="https://avatars1.githubusercontent.com/u/8211563?s=460&v=4" width="270px" />
+<img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" />
 
 ---
 # Intro to Git
