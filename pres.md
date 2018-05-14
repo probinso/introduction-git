@@ -305,7 +305,7 @@ Branching allows
 
 ---
 # To Learn Next
-- Github `issues` 
+- Github `issues`
 - `checkout` - use another version as working copy
 - `branch` - encapsulate work
 - `rebase`/`rebase -i` - edit branch history
