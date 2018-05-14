@@ -3,11 +3,14 @@
 # Preamble
 http://bit.ly/2yZWVpX
 
-**First 10 minutes** will be used to ensure
-1. `git` installed on your computer.
-2. `Github` account setup & give username to the TAs
+**First 10 minutes** will be used to ensure your environment is set up.
+Your environment should have:
+1. `git` is installed on your computer.
+2. A `Github` account setup
+3. A text editor (such as textedit, nano, or atom)
 
-Please sit in front of room if you haven't yet setup your environment
+Please sit in front of room if you haven't yet setup your environment.
+Give your Github username to the TAs!
 
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
@@ -24,22 +27,22 @@ _If you didn't bring a computer, or are unfamiliar with terminal commands, make 
 http://bit.ly/2yZWVpX
 
 This talk will not cover, or expect, specific programming languages
+This talk will:
 
-1. Introduce collaborative demo
-2. We will introduce vocabulary
-3. Understand Simplest Workflow
-4. Attendants will contribute to collaborative demo
-5. Talk about access control and Github
+1. Introduce a collaborative demo using git and Github
+2. Introduce vocabulary for using git and Github
+3. Understand a simple git workflow
+4. Talk about access control and Github
 
 ---
 # Goals
 If you successfully finish workshop, you will
-- be able to collaborate on simple projects
+- be able to collaborate on simple projects using git and Github
 - understand basic vocabulary for git
-- know how/what to study next
+- know what to study next and where to find resources
 
 ---
-# Why do you Care?
+# Why should you Care?
 - No more emailing document revisions
 - Simpler local directory/file structures
 - Remote storage
@@ -49,11 +52,11 @@ If you successfully finish workshop, you will
 
 ---
 # Your Project!
-- After I assign you a **panel** of content,
+After I assign you a **panel** of content,
 - add **panel** contents to the `README.md` file
 - belonging to an **existing repository**
 - in **alphabetical order**.
-- Finally, share your changes
+- Finally, use git to share your changes
 
 ```text
 A is for Alice who fell down the stairs
@@ -106,7 +109,7 @@ $ cat secrets.json # this file should not be committed
 ```python
 import json
 
-# this file should be commited
+# this file should be committed
 
 with open('secrets.json') as fd:
     pwd = json.load(fd)['password']
@@ -122,10 +125,10 @@ Can specify file types or specific files to not commit
 Each line is a file type or filename
 
 - can use wildcard patterns: `.csv`
-- don't save my `passwords.json`
+- don't save my `secrets.json`
 
 ```
-.csv
+*.csv
 passwords.json
 ```
 
@@ -154,15 +157,14 @@ passwords.json
 
 ![](branch.png)
 
----
 # Using Git for the first time
 
-```
-git init my_new_project
-cd my_new_project
-nano readme.md   #we'll edit the readme file for the git
-git add readme.md #now we add it
-git commit -m "my first commit" # commit file with message
+```bash
+$ git init my_new_project
+$ cd my_new_project
+$ nano readme.md   # we'll edit the readme file for the git
+$ git add readme.md #now we add it
+$ git commit -m "my first commit" # commit file with message
 ```
 
 ---
@@ -178,14 +180,10 @@ $ git status
 # both modified:
 ```
 
-```text
+```bash
 $ cat styleguide.md
 If you have questions, please
-<<<<<<<< HEAD
 open an issue
-========
-ask your question in IRC.
->>>>>>>> branch-a
 ```
 
 ```text
@@ -222,7 +220,7 @@ $ git config --global user.email johndoe@example.com
 ```
 
 ---
-# Give me your Username in Exchange for A Panel
+# Give me your Github username in exchange for a Panel
 
 ---
 # ![The Fatal Lozenge](./lozenge.png)
@@ -262,6 +260,8 @@ $
 
 ---
 # Intermission
+- Complete the Game
+- Signal TAs for help if you get stuck!
 
 ---
 # Github activities
