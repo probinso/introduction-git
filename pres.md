@@ -125,7 +125,7 @@ Can specify file types or specific files to not commit
 Each line is a file type or filename
 
 - can use wildcard patterns: `.csv`
-- don't save my `passwords.json`
+- don't save my `secrets.json`
 
 ```
 *.csv
