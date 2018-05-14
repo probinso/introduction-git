@@ -48,6 +48,7 @@ If you successfully finish workshop, you will
 - Remote storage
 - Stable workflow
 - Easily add new collaborators to project
+- The world's most boring time machine
 
 ---
 # Your Project!
@@ -84,8 +85,8 @@ competes with : **hg**, **svn**, **cvs**
 competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ---
-## What to store (Github)?
-- source code (language ambiguous)
+## What to store in Github?
+- source code (any language)
 - markdown / Jupyter / pdf
 - small or static images & data-sets
 
@@ -117,26 +118,54 @@ print(pwd)
 ```
 
 ---
+# .gitignore
+
+Can specify file types or specific files to not commit
+
+Each line is a file type or filename
+
+- can use wildcard patterns: `.csv`
+- don't save my `passwords.json`
+
+```
+*.csv
+passwords.json
+```
+
+---
 # Vocabulary (I)
+- `init` / `clone` - Starts a Project
+- `add`/`commit` and Commit History - Tracks Changes
+- `push` - Share Changes
+
+---
+# Vocabulary (II)
+
+- `diff`, `status`, `log` - What state am I in?
+- `fetch`/`merge` and Merge Conflicts
+---
+# Vocabulary (III)
 - `remote` **labels alias another location**
 
 ![](remote.png)
 
-
 ---
-# Vocabulary (II)
+# Vocabulary (IV)
 - `branch` - encapsulates a split in ledger of work
 - `checkout` - swaps current working copy to a target
+- `revert` - oh crap, I made a mistaek
 
 ![](branch.png)
 
----
-# Vocabulary (III)
-- `init` / `clone` - Starts Project
-- `add`/`commit` - Commit history - tracks changes
-- `fetch`/`merge` - Merge conflicts
-- `push` - Share changes
-- `diff`, `status`, `log` - Check the current state you are in
+# Using Git for the first time
+
+```bash
+$ git init my_new_project
+$ cd my_new_project
+$ nano readme.md   # we'll edit the readme file for the git
+$ git add readme.md #now we add it
+$ git commit -m "my first commit" # commit file with message
+```
 
 ---
 # Inspecting the Repository
@@ -151,14 +180,10 @@ $ git status
 # both modified:
 ```
 
-```text
+```bash
 $ cat styleguide.md
 If you have questions, please
-<<<<<<<< HEAD
 open an issue
-========
-ask your question in IRC.
->>>>>>>> branch-a
 ```
 
 ```text
@@ -170,7 +195,6 @@ ask your question in IRC.
 ---
 # Workflow Map
 ![simplest git workflow](./git.png)
-
 
 ---
 # Message Flag and Editor
@@ -260,7 +284,7 @@ _Collaboration within a team is different than from outside, as a consequence of
 1. `fork` repository on Github
 2. `clone` forked repository to local directory
 3. `add upstream` directed toward original repository
-6. Edit files, save, `commit`, then `push` changes forked repository
+6. Edit files, save, `commit`, then `push` changes in forked repository
 8. `pull request` against original repository
 
 ---
