@@ -15,9 +15,9 @@ Give your Github username to the TAs!
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
-# <Organization>
+# \<Organization\>
 
-#### Thanks to <location> for hosting
+#### Thanks to \<location\> for hosting
 
 #### Thanks to <speakers/TAs>
 
