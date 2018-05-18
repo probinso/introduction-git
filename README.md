@@ -15,9 +15,9 @@ Give your Github username to the TAs!
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
-# Portland BioData Club
+# <Organization>
 
-#### Thanks to OHSU for hosting
+#### Thanks to <location> for hosting
 
 <img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" />
 
