@@ -54,11 +54,13 @@ If you successfully finish workshop, you will
 
 ---
 # Your Project!
-After I assign you a **panel** of content,
-- add **panel** contents to the `README.md` file
+After I assign you an **issue** of content,
+- add text contents of **issue** to the `README.md` file
 - belonging to an **existing repository**
 - in **alphabetical order**.
 - Finally, use git to share your changes
+
+![](./images/A.png)
 
 ```text
 A is for Alice who fell down the stairs
@@ -90,62 +92,30 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 ## What to store in Github?
 - source code (any language)
 - markdown / Jupyter / pdf
-- small or static images & data-sets
+- small or static public images & data-sets
 
 ## What NOT to store?
 - PASSWORDS, access tokens, or private keys
 - compiled binaries
-- large images & data-sets
+- PHI, large images, data-sets
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
-# Passwords
 
-```bash
-$ cat secrets.json # this file should not be committed
-{
-    "password":"MySuperNeatoPassword!#"
-}
-```
-
-```python
-import json
-
-# this file should be committed
-
-with open('secrets.json') as fd:
-    pwd = json.load(fd)['password']
-
-print(pwd)
-```
-
----
-# .gitignore
-
-Can specify file types or specific files to not commit
-
-Each line is a file type or filename
-
-- can use wildcard patterns: `.csv`
-- don't save my `secrets.json`
-
-```
-*.csv
-passwords.json
-```
-
----
 # Vocabulary (I)
 - `init` / `clone` - Starts a Project
 - `add`/`commit` and Commit History - Tracks Changes
 - `push` - Share Changes
 
 ---
+
 # Vocabulary (II)
 
 - `diff`, `status`, `log` - What state am I in?
 - `fetch`/`merge` and Merge Conflicts
+
 ---
+
 # Vocabulary (III)
 - `remote` **labels alias another location**
 
@@ -155,7 +125,7 @@ passwords.json
 # Vocabulary (IV)
 - `branch` - encapsulates a split in ledger of work
 - `checkout` - swaps current working copy to a target
-- `revert` - oh crap, I made a mistaek
+- `revert` - oh crap, I made a mistaek (backwards in time)
 
 ![](branch.png)
 
@@ -266,6 +236,42 @@ $
 - Signal TAs for help if you get stuck!
 
 ---
+# Passwords
+
+```bash
+$ cat secrets.json # this file should not be committed
+{
+    "password":"MySuperNeatoPassword!#"
+}
+```
+
+```python
+import json
+
+# this file should be committed
+
+with open('secrets.json') as fd:
+    pwd = json.load(fd)['password']
+
+print(pwd)
+```
+
+---
+# .gitignore
+
+Can specify file types or specific files to not commit
+
+Each line is a file type or filename
+
+- can use wildcard patterns: `.csv`
+- don't save my `secrets.json`
+
+```
+*.csv
+passwords.json
+```
+
+---
 # Github activities
 - Code reviews
 - Create / destroy user and organization accounts
@@ -307,7 +313,6 @@ Branching allows
 
 ---
 # To Learn Next
-- Github `issues`
 - `checkout` - use another version as working copy
 - `branch` - encapsulate work
 - `rebase`/`rebase -i` - edit branch history
