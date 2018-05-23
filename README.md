@@ -119,7 +119,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 # Vocabulary (III)
 - `remote` **labels alias another location**
 
-![](remote.png)
+![](images/remote.png)
 
 ---
 # Vocabulary (IV)
@@ -127,7 +127,7 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `checkout` - swaps current working copy to a target
 - `revert` - oh crap, I made a mistaek (backwards in time)
 
-![](branch.png)
+![](images/branch.png)
 
 # Using Git for the first time
 
@@ -166,7 +166,7 @@ ask your question in IRC.
 
 ---
 # Workflow Map
-![simplest git workflow](./git.png)
+![simplest git workflow](images/git.png)
 
 ---
 # Message Flag and Editor
@@ -195,7 +195,7 @@ $ git config --global user.email johndoe@example.com
 # Give me your Github username in exchange for a Panel
 
 ---
-# ![The Fatal Lozenge](./lozenge.png)
+# ![The Fatal Lozenge](images/lozenge.png)
 
 ---
 # Rules of the Game (15 min)
