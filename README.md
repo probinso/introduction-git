@@ -63,7 +63,7 @@ After I assign you an **issue** of content,
 ![](./images/A.png)
 
 ```text
-A is for Alice who fell down the stairs
+A is for Amy who fell down the stairs
 B is for Basil assaulted by bears
 C is for Clara who wasted away
 ...
