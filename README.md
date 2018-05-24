@@ -9,7 +9,7 @@ In order to participate, your environment should have:
 3. A `github` account setup
 4. You must know your `github` password
 
-Give your Github username to the TAs!
+Give your Github username to the TAs! Once you've been invited, we can get started.
 
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
