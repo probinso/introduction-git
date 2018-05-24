@@ -1,7 +1,7 @@
 <!-- $theme: gaia -->
 
 # Preamble
-http://bit.ly/2yZWVpX
+https://bit.ly/2IMdGdm
 
 In order to participate, your environment should have:
 1. `git` is installed on your computer
@@ -25,7 +25,7 @@ _If you didn't bring a computer, or are unfamiliar with terminal commands, make 
 ---
 # Intro to Git
 
-http://bit.ly/2yZWVpX
+https://bit.ly/2IMdGdm
 
 This talk will not cover, or expect, specific programming languages
 This talk will:
