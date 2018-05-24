@@ -7,7 +7,7 @@ In order to participate, your environment should have:
 1. `git` is installed on your computer
 2. A text editor (such as `atom`) installed on your computer
 3. A `github` account setup
-4. You must know your `github` password
+4. You must know your password for `github` and your `email` 
 
 Give your Github username to the TAs! Once you've been invited, we can get started.
 
