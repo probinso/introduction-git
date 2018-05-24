@@ -92,56 +92,44 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 ## What to store in Github?
 - source code (any language)
 - markdown / Jupyter / pdf
-- small or static public images & data-sets
+- small public (images & data-sets)
 
 ## What NOT to store?
 - PASSWORDS, access tokens, or private keys
 - compiled binaries
-- PHI, large images, data-sets
+- PHI, large images, large data-sets
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
 
 # Vocabulary (I)
-- `init` / `clone` - Starts a Project
-- `add`/`commit` and Commit History - Tracks Changes
-- `push` - Share Changes
+
+- *Working Copy* - version of files I can currently edit
+- `diff`, `status`, `log` - What state am I in?
+- `checkout` - swaps current working copy to specific `commit`
 
 ---
 
 # Vocabulary (II)
-
-- `diff`, `status`, `log` - What state am I in?
-- `fetch`/`merge` and Merge Conflicts
-
----
-
-# Vocabulary (III)
-- `remote` **labels alias another location**
+- `remote` **labels that alias another location (host)**
 
 ![](images/remote.png)
 
 ---
+
+# Vocabulary (III)
+- `init` / `clone` - Starts a Project
+
+- `add`/`commit` add to ledger history - Tracks Changes
+- `fetch`/`merge` Join multiple ledgers and handle merge conflicts
+- `push` - Share Changes
+
+---
 # Vocabulary (IV)
 - `branch` - encapsulates a split in ledger of work
-- `checkout` - swaps current working copy to a target
 - `revert` - oh crap, I made a mistaek (backwards in time)
 
 ![](images/branch.png)
-
-# Using Git for the first time
-
-```bash
-$ git init my_new_project
-$ cd my_new_project
-$ nano readme.md   # we'll edit the readme file for the git
-$ git add readme.md #now we add it
-$ git commit -m "my first commit" # commit file with message
-```
-
----
-# Inspecting the Repository
-<!-- this is where I will clone, then look at the status, log, and diff of a repository -->
 
 ---
 ## Merge Conflicts
@@ -155,13 +143,14 @@ $ git status
 ```bash
 $ cat styleguide.md
 If you have questions, please
-open an issue
+email a contributor.
 ```
 
 ```text
 $ cat styleguide.md
-If you have questions, please open an issue or
-ask your question in IRC.
+If you have a question, please open an issue on
+github. If you have a solution, please submit
+a pull request.
 ```
 
 ---
@@ -190,9 +179,6 @@ To exit `vim`, Hit the `Esc` key to enter "Command mode". Then you can type `:` 
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
-
----
-# Give me your Github username in exchange for a Panel
 
 ---
 # ![The Fatal Lozenge](images/lozenge.png)
