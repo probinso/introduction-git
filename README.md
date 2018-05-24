@@ -96,15 +96,15 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 
 ## What NOT to store?
 - PASSWORDS, access tokens, or private keys
-- compiled binaries
 - PHI, large images, large data-sets
+- compiled binaries
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
 
 # Vocabulary (I)
 
-- *Working Copy* - version of files I can currently edit
+- **Working Copy** - version of files I can currently edit
 - `diff`, `status`, `log` - What state am I in?
 - `checkout` - swaps current working copy to specific `commit`
 
@@ -124,12 +124,14 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `fetch`/`merge` Join multiple ledgers and handle merge conflicts
 - `push` - Share Changes
 
+<!--
 ---
 # Vocabulary (IV)
 - `branch` - encapsulates a split in ledger of work
 - `revert` - oh crap, I made a mistaek (backwards in time)
 
 ![](images/branch.png)
+-->
 
 ---
 ## Merge Conflicts
