@@ -1,15 +1,14 @@
 <!-- $theme: gaia -->
 
 # Preamble
-http://bit.ly/2yZWVpX
+https://bit.ly/2IMdGdm
 
-**First 10 minutes** will be used to ensure your environment is set up.
-Your environment should have:
-1. `git` is installed on your computer.
-2. A `Github` account setup
-3. A text editor (such as textedit, nano, or atom)
+In order to participate, your environment should have:
+1. `git` is installed on your computer
+2. A text editor (such as `atom`) installed on your computer
+3. A `github` account setup
+4. You must know your `github` password
 
-Please sit in front of room if you haven't yet setup your environment.
 Give your Github username to the TAs!
 
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
@@ -26,7 +25,7 @@ _If you didn't bring a computer, or are unfamiliar with terminal commands, make 
 ---
 # Intro to Git
 
-http://bit.ly/2yZWVpX
+https://bit.ly/2IMdGdm
 
 This talk will not cover, or expect, specific programming languages
 This talk will:
