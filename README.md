@@ -15,9 +15,11 @@ Give your Github username to the TAs!
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
-# Portland BioData Club
+# \<Organization\>
 
-#### Thanks to OHSU for hosting
+#### Thanks to \<location\> for hosting
+
+#### Thanks to <speakers/TAs>
 
 <img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" />
 
@@ -52,14 +54,16 @@ If you successfully finish workshop, you will
 
 ---
 # Your Project!
-After I assign you a **panel** of content,
-- add **panel** contents to the `README.md` file
+After I assign you an **issue** of content,
+- add text contents of **issue** to the `README.md` file
 - belonging to an **existing repository**
 - in **alphabetical order**.
 - Finally, use git to share your changes
 
+![](./images/A.png)
+
 ```text
-A is for Alice who fell down the stairs
+A is for Amy who fell down the stairs
 B is for Basil assaulted by bears
 C is for Clara who wasted away
 ...
@@ -88,88 +92,44 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 ## What to store in Github?
 - source code (any language)
 - markdown / Jupyter / pdf
-- small or static images & data-sets
+- small public (images & data-sets)
 
 ## What NOT to store?
 - PASSWORDS, access tokens, or private keys
 - compiled binaries
-- large images & data-sets
+- PHI, large images, large data-sets
 - Non-pars-able documents (Word, Photoshop, ...)
 
 ---
-# Passwords
 
-```bash
-$ cat secrets.json # this file should not be committed
-{
-    "password":"MySuperNeatoPassword!#"
-}
-```
-
-```python
-import json
-
-# this file should be committed
-
-with open('secrets.json') as fd:
-    pwd = json.load(fd)['password']
-
-print(pwd)
-```
-
----
-# .gitignore
-
-Can specify file types or specific files to not commit
-
-Each line is a file type or filename
-
-- can use wildcard patterns: `.csv`
-- don't save my `secrets.json`
-
-```
-*.csv
-passwords.json
-```
-
----
 # Vocabulary (I)
-- `init` / `clone` - Starts a Project
-- `add`/`commit` and Commit History - Tracks Changes
-- `push` - Share Changes
 
----
-# Vocabulary (II)
-
+- *Working Copy* - version of files I can currently edit
 - `diff`, `status`, `log` - What state am I in?
-- `fetch`/`merge` and Merge Conflicts
----
-# Vocabulary (III)
-- `remote` **labels alias another location**
+- `checkout` - swaps current working copy to specific `commit`
 
-![](remote.png)
+---
+
+# Vocabulary (II)
+- `remote` **labels that alias another location (host)**
+
+![](images/remote.png)
+
+---
+
+# Vocabulary (III)
+- `init` / `clone` - Starts a Project
+
+- `add`/`commit` add to ledger history - Tracks Changes
+- `fetch`/`merge` Join multiple ledgers and handle merge conflicts
+- `push` - Share Changes
 
 ---
 # Vocabulary (IV)
 - `branch` - encapsulates a split in ledger of work
-- `checkout` - swaps current working copy to a target
-- `revert` - oh crap, I made a mistaek
+- `revert` - oh crap, I made a mistaek (backwards in time)
 
-![](branch.png)
-
-# Using Git for the first time
-
-```bash
-$ git init my_new_project
-$ cd my_new_project
-$ nano readme.md   # we'll edit the readme file for the git
-$ git add readme.md #now we add it
-$ git commit -m "my first commit" # commit file with message
-```
-
----
-# Inspecting the Repository
-<!-- this is where I will clone, then look at the status, log, and diff of a repository -->
+![](images/branch.png)
 
 ---
 ## Merge Conflicts
@@ -183,18 +143,19 @@ $ git status
 ```bash
 $ cat styleguide.md
 If you have questions, please
-open an issue
+email a contributor.
 ```
 
 ```text
 $ cat styleguide.md
-If you have questions, please open an issue or
-ask your question in IRC.
+If you have a question, please open an issue on
+github. If you have a solution, please submit
+a pull request.
 ```
 
 ---
 # Workflow Map
-![simplest git workflow](./git.png)
+![simplest git workflow](images/git.png)
 
 ---
 # Message Flag and Editor
@@ -220,10 +181,7 @@ $ git config --global user.email johndoe@example.com
 ```
 
 ---
-# Give me your Github username in exchange for a Panel
-
----
-# ![The Fatal Lozenge](./lozenge.png)
+# ![The Fatal Lozenge](images/lozenge.png)
 
 ---
 # Rules of the Game (15 min)
@@ -262,6 +220,42 @@ $
 # Intermission
 - Complete the Game
 - Signal TAs for help if you get stuck!
+
+---
+# Passwords
+
+```bash
+$ cat secrets.json # this file should not be committed
+{
+    "password":"MySuperNeatoPassword!#"
+}
+```
+
+```python
+import json
+
+# this file should be committed
+
+with open('secrets.json') as fd:
+    pwd = json.load(fd)['password']
+
+print(pwd)
+```
+
+---
+# .gitignore
+
+Can specify file types or specific files to not commit
+
+Each line is a file type or filename
+
+- can use wildcard patterns: `.csv`
+- don't save my `secrets.json`
+
+```
+*.csv
+passwords.json
+```
 
 ---
 # Github activities
@@ -305,7 +299,6 @@ Branching allows
 
 ---
 # To Learn Next
-- Github `issues`
 - `checkout` - use another version as working copy
 - `branch` - encapsulate work
 - `rebase`/`rebase -i` - edit branch history
