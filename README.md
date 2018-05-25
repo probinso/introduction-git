@@ -20,7 +20,7 @@ _If you didn't bring a computer, or are unfamiliar with terminal commands, make 
 
 #### Thanks to Philip, Ted, Lisa, Robin
 
-<img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" /> <img src="https://raw.githubusercontent.com/probinso/introduction-git/master/images/person.png" width="270px" />
+<img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="270px" /> <img src="https://avatars0.githubusercontent.com/u/3315629?s=460&v=4" width="270px" /> <img src="https://avatars0.githubusercontent.com/u/19511476?s=400&v=4" width="270px" /> <img src="https://avatars3.githubusercontent.com/u/15355483?s=460&v=4" width="270px" />
 
 ---
 # Intro to Git
