@@ -234,7 +234,7 @@ Each line is a file type or filename
 
 ```
 *.csv
-passwords.json
+secrets.json
 ```
 
 ---
