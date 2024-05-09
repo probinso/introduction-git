@@ -68,7 +68,9 @@ C is for Clara who wasted away
 ...
 Z is for Zillah who drank to much gin
 ```
+
 <!--
+
 ---
 # What is Git?
 - Source and version control
@@ -130,7 +132,6 @@ competes with : **GitLab**, **bitbucket**, **coding.net**
 - `revert` - oh crap, I made a mistaek (backwards in time)
 
 ![](images/branch.png)
--->
 
 ---
 ## Merge Conflicts
@@ -313,4 +314,4 @@ Branching allows
 - *Data Camp* https://www.datacamp.com/courses/introduction-to-git-for-data-science
 - *Udacity* https://www.udacity.com/course/how-to-use-git-and-github--ud775
 
-  -->
+-->
